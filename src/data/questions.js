@@ -60,105 +60,105 @@ export const INITIAL_QUESTIONS = [
   {
     id: 6,
     topic: "تفاضل وتكامل",
-    image: getImagePath("6.jpg"),
+    image: getImagePath("6.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 7,
     topic: "تفاضل وتكامل",
-    image: getImagePath("7.jpg"),
+    image: getImagePath("7.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 8,
     topic: "تفاضل وتكامل",
-    image: getImagePath("8.jpg"),
+    image: getImagePath("8.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "د"
   },
   {
     id: 9,
     topic: "تفاضل وتكامل",
-    image: getImagePath("9.jpg"),
+    image: getImagePath("9.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 10,
     topic: "تفاضل وتكامل",
-    image: getImagePath("10.jpg"),
+    image: getImagePath("10.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 11,
     topic: "تفاضل وتكامل",
-    image: getImagePath("11.jpg"),
+    image: getImagePath("11.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 12,
     topic: "تفاضل وتكامل",
-    image: getImagePath("12.jpg"),
+    image: getImagePath("12.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "د"
   },
   {
     id: 13,
     topic: "تفاضل وتكامل",
-    image: getImagePath("13.jpg"),
+    image: getImagePath("13.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 14,
     topic: "تفاضل وتكامل",
-    image: getImagePath("14.jpg"),
+    image: getImagePath("14.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 15,
     topic: "تفاضل وتكامل",
-    image: getImagePath("15.jpg"),
+    image: getImagePath("15.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 16,
     topic: "تفاضل وتكامل",
-    image: getImagePath("16.jpg"),
+    image: getImagePath("16.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 17,
     topic: "تفاضل وتكامل",
-    image: getImagePath("17.jpg"),
+    image: getImagePath("17.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "أ"
   },
   {
     id: 18,
     topic: "تفاضل وتكامل",
-    image: getImagePath("18.jpg"),
+    image: getImagePath("18.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "أ"
   },
   {
     id: 19,
     topic: "تفاضل وتكامل",
-    image: getImagePath("19.jpg"),
+    image: getImagePath("19.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "د"
   },
   {
     id: 20,
     topic: "تفاضل وتكامل (سلوك الدالة ورسم المنحنيات)",
-    image: getImagePath("20.jpg"),
+    image: getImagePath("20.png"),
     hasSubQuestions: true,
     subQuestions: [
       {
@@ -196,14 +196,14 @@ export const INITIAL_QUESTIONS = [
   {
     id: 21,
     topic: "تفاضل وتكامل",
-    image: getImagePath("21.jpg"),
+    image: getImagePath("21.png"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 22,
     topic: "تفاضل وتكامل (سلوك الدالة ورسم المنحنيات)",
-    image: getImagePath("22.jpg"),
+    image: getImagePath("22.png"),
     hasSubQuestions: true,
     subQuestions: [
       {
