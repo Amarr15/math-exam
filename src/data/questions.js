@@ -19,145 +19,146 @@ const DEFAULT_OPTIONS = [
   { id: "ج", label: "( ج )" },
   { id: "د", label: "( د )" }
 ];
-
+const getImagePath = (filename) =>
+  `${import.meta.env.BASE_URL}questions/${filename}`;
 export const INITIAL_QUESTIONS = [
   {
     id: 1,
     topic: "تفاضل وتكامل",
-    image: "/questions/1.jpg",
+    image: getImagePath("1.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 2,
     topic: "تفاضل وتكامل",
-    image: "/questions/2.jpg",
+    image: getImagePath("2.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 3,
     topic: "تفاضل وتكامل",
-    image: "/questions/3.jpg",
+    image: getImagePath("3.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 4,
     topic: "تفاضل وتكامل",
-    image: "/questions/4.jpg",
+    image: getImagePath("4.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 5,
     topic: "تفاضل وتكامل",
-    image: "/questions/5.jpg",
+    image: getImagePath("5.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "أ"
   },
   {
     id: 6,
     topic: "تفاضل وتكامل",
-    image: "/questions/6.png",
+    image: getImagePath("6.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 7,
     topic: "تفاضل وتكامل",
-    image: "/questions/7.png",
+    image: getImagePath("7.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 8,
     topic: "تفاضل وتكامل",
-    image: "/questions/8.png",
+    image: getImagePath("8.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "د"
   },
   {
     id: 9,
     topic: "تفاضل وتكامل",
-    image: "/questions/9.png",
+    image: getImagePath("9.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 10,
     topic: "تفاضل وتكامل",
-    image: "/questions/10.png",
+    image: getImagePath("10.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 11,
     topic: "تفاضل وتكامل",
-    image: "/questions/11.png",
+    image: getImagePath("11.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 12,
     topic: "تفاضل وتكامل",
-    image: "/questions/12.png",
+    image: getImagePath("12.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "د"
   },
   {
     id: 13,
     topic: "تفاضل وتكامل",
-    image: "/questions/13.png",
+    image: getImagePath("13.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 14,
     topic: "تفاضل وتكامل",
-    image: "/questions/14.png",
+    image: getImagePath("14.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 15,
     topic: "تفاضل وتكامل",
-    image: "/questions/15.png",
+    image: getImagePath("15.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 16,
     topic: "تفاضل وتكامل",
-    image: "/questions/16.png",
+    image: getImagePath("16.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ج"
   },
   {
     id: 17,
     topic: "تفاضل وتكامل",
-    image: "/questions/17.png",
+    image: getImagePath("17.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "أ"
   },
   {
     id: 18,
     topic: "تفاضل وتكامل",
-    image: "/questions/18.png",
+    image: getImagePath("18.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "أ"
   },
   {
     id: 19,
     topic: "تفاضل وتكامل",
-    image: "/questions/19.png",
+    image: getImagePath("19.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "د"
   },
   {
     id: 20,
     topic: "تفاضل وتكامل (سلوك الدالة ورسم المنحنيات)",
-    image: "/questions/20.png",
+    image: getImagePath("20.jpg"),
     hasSubQuestions: true,
     subQuestions: [
       {
@@ -195,14 +196,14 @@ export const INITIAL_QUESTIONS = [
   {
     id: 21,
     topic: "تفاضل وتكامل",
-    image: "/questions/21.png",
+    image: getImagePath("21.jpg"),
     options: DEFAULT_OPTIONS,
     correctAnswer: "ب"
   },
   {
     id: 22,
     topic: "تفاضل وتكامل (سلوك الدالة ورسم المنحنيات)",
-    image: "/questions/22.png",
+    image: getImagePath("22.jpg"),
     hasSubQuestions: true,
     subQuestions: [
       {
